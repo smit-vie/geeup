@@ -9,12 +9,11 @@ def readme():
 
 setup(
     name="geeup",
-    version="1.0.1",
+    version="1.0.2",
     python_requires=">=3.6",
     packages=find_packages(),
-    url="https://github.com/samapriya/geeup",
+    url="https://github.com/smit-vie/geeup",
     install_requires=[
-        "pandas==2.0.3",
         "earthengine-api>=0.1.370",
         "requests>=2.10.0",
         "retrying>=1.3.3",
